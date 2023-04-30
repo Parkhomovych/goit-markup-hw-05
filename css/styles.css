@@ -544,12 +544,11 @@ img {
   color: var(--team-background-color);
   background-color: var(--logo-web-color);
 }
-.card-item:hover .overlay {
-  transform: translate(0, 0);
-}
+.card-item:hover .overlay,
 .card-item:focus .overlay {
-  transform: translate(0, 0);
+  transform: translateY(0%);
 }
+
 /**
   |============================
   | MODAL WINDOW
