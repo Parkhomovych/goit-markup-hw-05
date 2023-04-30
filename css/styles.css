@@ -546,8 +546,8 @@ img {
   color: var(--team-background-color);
   background-color: var(--logo-web-color);
 }
-.card-item:hover .overlay,
-.card-item:focus .overlay {
+.card-link:hover .overlay,
+.card-link:focus .overlay {
   transform: translateY(0%);
 }
 
