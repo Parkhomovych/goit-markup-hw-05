@@ -147,21 +147,7 @@ img {
   background-color: #404bbf;
   border-radius: 2px;
 }
-.active-portfolio {
-  position: relative;
-  color: #404bbf;
-}
-.active-portfolio::after {
-  position: absolute;
-  left: 0;
-  bottom: -1px;
-  content: '';
-  display: block;
-  width: 66px;
-  height: 4px;
-  background-color: #404bbf;
-  border-radius: 2px;
-}
+
 .contact-link {
   font-style: normal;
   color: var(--text-color);
